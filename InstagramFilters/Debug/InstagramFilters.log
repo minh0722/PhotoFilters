@@ -1,0 +1,35 @@
+﻿Build started 06-Feb-16 2:26:29 PM.
+     1>Project "C:\Users\Minh\Documents\InstagramFilters\InstagramFilters\InstagramFilters.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Minh\Documents\Development libraries\ImageMagick-6.9.3-Q8\ImageMagick-6.9.3-Q8\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Minh\Documents\InstagramFilters\Debug\InstagramFilters.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Minh\Documents\Development libraries\ImageMagick-6.9.3-Q8\ImageMagick-6.9.3-Q8\lib" CORE_RL_magick_.lib CORE_RL_Magick++_.lib CORE_RL_wand_.lib SDL2.lib SDL2main.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Minh\Documents\InstagramFilters\Debug\InstagramFilters.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Minh\Documents\InstagramFilters\Debug\InstagramFilters.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>main.obj : error LNK2019: unresolved external symbol __free_dbg referenced in function "private: void __thiscall std::_Yarn<char>::_Tidy(void)" (?_Tidy@?$_Yarn@D@std@@AAEXXZ)
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+     1>libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol __calloc_dbg referenced in function __Getctype
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: unresolved external symbol __malloc_dbg referenced in function "public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (??4?$_Yarn@D@std@@QAEAAV01@PBD@Z)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol __realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z)
+     1>C:\Users\Minh\Documents\InstagramFilters\Debug\InstagramFilters.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\Users\Minh\Documents\InstagramFilters\InstagramFilters\InstagramFilters.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.59
